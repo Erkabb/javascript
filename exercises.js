@@ -64,7 +64,7 @@ while(e>=100){
         }
     console.log("3 orontoi toonii tegsh tsifruudiin niilber:", sum2);
     break;
-}*/
+}
 
 //ex9
 
@@ -90,3 +90,42 @@ for (let k = 0; k <= m; k++){
        }
 }
 console.log("sum of even numbers", sum1);
+let x = ['a', 'b', 'c','d','e','f','j'];
+for (let i = 0; i < x.length; i++){
+    for (let j = 0; j < x[0].length; j++){
+        console.log(x[i][j]);
+    }
+}
+
+let fruits = ["apple", "banana", "orange", "kiwi", "grape"];
+console.log("fruits array ehnii element:", fruits[0]);
+console.log("suulin element:", fruits[4]);
+console.log("3 dahi:", fruits[3]);*/
+
+//ex2
+
+let array = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
+let num1 = 1, sum=0;
+for (let k = 0; k < array.length; k++) {
+    // console.log("buh too", array[k]);
+    num1 = array[k] % 2;
+    if (num1 === 0) {
+        // sum = sum +k;
+        // console.count(sum);
+       
+        console.log("even numbers", array[k]);
+        console.count("tegsh toonii too:",num1);
+    
+    } else {
+        console.log("odd :", array[k]);
+        console.count("sondgoinii toonii too:", num1);
+    }
+    
+}
+
+
+// let array = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
+// for (let i = 0; array[] % 2 === 0; i++){
+//     console.log(array());
+// }
+// return (array);*/
