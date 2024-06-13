@@ -107,23 +107,26 @@ console.log("3 dahi:", fruits[3]);*/
 let array = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
 let num1 = 1, sum=0;
 for (let k = 0; k < array.length; k++) {
+    sum = sum + array[k];
+   
+    // console.log("length", array.length);
     // console.log("buh too", array[k]);
-    num1 = array[k] % 2;
-    if (num1 === 0) {
-        // sum = sum +k;
-        // console.count(sum);
+    // num1 = array[k] % 2;
+    // if (num1 === 0) {
+    //     // sum = sum +k;
+    //     // console.count(sum);
        
-        console.log("even numbers", array[k]);
-        console.count("tegsh toonii too:",num1);
+    //     console.log("even numbers", array[k]);
+    //     console.count("tegsh toonii too:",num1);
     
-    } else {
-        console.log("odd :", array[k]);
-        console.count("sondgoinii toonii too:", num1);
-    }
+    // } else {
+    //     console.log("odd :", array[k]);
+    //     console.count("sondgoinii toonii too:", num1);
+    // }
     
-}
+} console.log("sum", sum);
 
-
+//math.min
 // let array = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
 // for (let i = 0; array[] % 2 === 0; i++){
 //     console.log(array());
