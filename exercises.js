@@ -105,30 +105,46 @@ console.log("3 dahi:", fruits[3]);*/
 //ex2
 
 let array = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
-let num1 = 1, sum=0;
+let num1 = 1,
+  sum = 0,
+  average = 1,
+  sum1 = 0,
+  sum2 = 1,
+  j,
+  k,
+  t = 0,
+  s = 0;
 for (let k = 0; k < array.length; k++) {
-    sum = sum + array[k];
-   
-    // console.log("length", array.length);
-    // console.log("buh too", array[k]);
-    // num1 = array[k] % 2;
-    // if (num1 === 0) {
-    //     // sum = sum +k;
-    //     // console.count(sum);
-       
-    //     console.log("even numbers", array[k]);
-    //     console.count("tegsh toonii too:",num1);
-    
-    // } else {
-    //     console.log("odd :", array[k]);
-    //     console.count("sondgoinii toonii too:", num1);
-    // }
-    
-} console.log("sum", sum);
+  sum = sum + array[k];
+  average = sum / 1;
+  if (array[k] % 2) {
+    s++;
+    sum2 = sum2 * array[k];
+  } else {
+    t++;
+    sum1 = sum1 + array[k];
+  }
+}
+console.log("tegsh count:", t);
+console.log("sondgoi count:", s);
 
-//math.min
-// let array = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
-// for (let i = 0; array[] % 2 === 0; i++){
-//     console.log(array());
-// }
-// return (array);*/
+let min = array[0];
+for (k = 0; k < array.length; k++) {
+  if (array[k] < array[0]) {
+    min = array[k];
+  }
+}
+let max;
+for (j = 0; j < array.length; j++) {
+  if (array[j] > array[9]) {
+    max = array[j];
+  }
+}
+
+console.log("sum", sum);
+console.log("Tegsh toonudin niilber:", sum1);
+console.log("Sondgoi toonuudin urjwer:", sum2);
+console.log("length", array.length);
+console.log("average:", average);
+console.log("hamgiin baga:", min);
+console.log("hamgiin ih:", max);
