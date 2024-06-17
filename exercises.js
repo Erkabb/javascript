@@ -1,3 +1,4 @@
+//ex1
 let n = Number(prompt("Natural too oruulna uu:"));
 let factorial = 1;
 for (let i = 1; i <= n; i++) {
@@ -43,6 +44,24 @@ for (let d = 0; d <= 10; d++) {
   }
 }
 
+//ex4
+let lg = 0;
+sum = 0;
+while (lg <= 100) {
+  sum += lg;
+  lg++;
+}
+console.log("1-100:", sum);
+
+//ex5
+let b = 0;
+let sum13 = 0;
+do {
+  sum1 += b;
+  b++;
+} while (b <= 100);
+console.log("sum:", sum1);
+
 //ex8
 
 let e = Number(prompt("3 orontoi too oruulna uu:"));
@@ -68,9 +87,9 @@ while (e >= 100) {
   tem = e % 10;
   let temp = tem % 2;
   if (temp === 0) {
-    sum2 += temp;
+    sum12 += temp;
   }
-  console.log("3 orontoi toonii tegsh tsifruudiin niilber:", sum2);
+  console.log("3 orontoi toonii tegsh tsifruudiin niilber:", sum12);
   break;
 }
 
@@ -94,23 +113,24 @@ let num12 = 1,
   sum21 = 0;
 for (let k = 0; k <= m; k++) {
   num12 = k % 2;
-  if (num1 === 0) {
+  if (num12 === 0) {
     sum12 = sum21 + k;
     console.log("even numbers", k);
   }
 }
 console.log("sum of even numbers", sum21);
-let x = ["a", "b", "c", "d", "e", "f", "j"];
-for (let i = 0; i < x.length; i++) {
-  for (let j = 0; j < x[0].length; j++) {
-    console.log(x[i][j]);
-  }
-}
 
-let fruits = ["apple", "banana", "orange", "kiwi", "grape"];
-console.log("fruits array ehnii element:", fruits[0]);
-console.log("suulin element:", fruits[4]);
-console.log("3 dahi:", fruits[3]);
+// let x = ["a", "b", "c", "d", "e", "f", "j"];
+// for (let i = 0; i < x.length; i++) {
+//   for (let j = 0; j < x[0].length; j++) {
+//     console.log(x[i][j]);
+//   }
+// }
+
+// let fruits = ["apple", "banana", "orange", "kiwi", "grape"];
+// console.log("fruits array ehnii element:", fruits[0]);
+// console.log("suulin element:", fruits[4]);
+// console.log("3 dahi:", fruits[3]);
 
 //ex2
 
