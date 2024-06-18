@@ -146,7 +146,7 @@ let num1 = 1,
   s = 0;
 for (let ke = 0; ke < array.length; ke++) {
   sum = sum + array[ke];
-  average = sum / 1;
+  average = sum / 10;
   if (array[ke] % 2) {
     s++;
     sum2 = sum2 * array[ke];
